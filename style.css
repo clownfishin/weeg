@@ -33,7 +33,7 @@ p {
     object-fit: stretch;
 }
 
-/*.separator {
+.separator {
     mask-image: url("/images/separator.svg");
     mask-position: left bottom;
     mask-repeat: repeat-x;
@@ -41,7 +41,7 @@ p {
 
     height: var(--separator-height);
     width: 100%;
-}*/
+}
 
 .profile {
     background-color: #8601FE;
