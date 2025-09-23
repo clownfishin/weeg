@@ -1,5 +1,5 @@
 :root {
-    --base: #46FFC8;
+    --base: #8601FE;
     --separator-height: 10vh;
     --profile-offset: calc(2 * var(--separator-height));
 }
@@ -44,7 +44,7 @@ p {
 }
 
 .profile {
-    background-color: #8601FE;
+    background-color: #46FFC8;
     bottom: var(--profile-offset);
 }
 
