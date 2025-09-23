@@ -49,6 +49,7 @@ p {
 }
 
 .footer {
+    --separator-height: 5vh;
     background-color: var(--base);
     bottom: calc(2 * var(--profile-offset));
 }
