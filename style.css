@@ -6,7 +6,7 @@
 
 body {
     background-color: var(--base);
-    color: #fef9fa;
+    color: #FEF506;
     margin: 0;
 
     font-family: OpenSans, sans-serif;
@@ -44,7 +44,7 @@ p {
 }
 
 .profile {
-    background-color: #FEF506;
+    background-color: #8601FE;
     bottom: var(--profile-offset);
 }
 
