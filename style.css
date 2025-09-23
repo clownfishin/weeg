@@ -74,7 +74,7 @@ p {
 
 #profile-img-container > img {
     max-width: 100%;
-    width: auto;
+    width: 100%;
     mask-image: url("/images/profile-mask.svg");
 }
 
