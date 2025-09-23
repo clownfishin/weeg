@@ -1,5 +1,5 @@
 :root {
-    --base: #003E3D;
+    --base: #46FFC8;
     --separator-height: 10vh;
     --profile-offset: calc(2 * var(--separator-height));
 }
