@@ -1,3 +1,3 @@
-# My website
+# This is a website.
 
-This is my personal website :)
+waow :)
