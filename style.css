@@ -9,7 +9,7 @@ body {
     color: #FEF506;
     margin: 0;
 
-    font-family: OpenSans, sans-serif;
+    font-family: LobsterTwo, sans-serif;
 }
 
 div {
@@ -83,4 +83,27 @@ p {
     font-size: 2rem;
     padding: 1rem;
     text-decoration: none;
+}
+.lobster-two-regular {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lobster-two-bold {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lobster-two-regular-italic {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lobster-two-bold-italic {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }
