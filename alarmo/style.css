@@ -1,0 +1,109 @@
+:root {
+    --base: #8601FE;
+    --separator-height: 10vh;
+    --profile-offset: calc(2 * var(--separator-height));
+}
+
+body {
+    background-color: var(--base);
+    color: #FEF506;
+    margin: 0;
+
+    font-family: "Lobster Two", Courier New, sans-serif;
+}
+
+.lobster-two-regular {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lobster-two-bold {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lobster-two-regular-italic {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lobster-two-bold-italic {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+div {
+    text-align: center;
+    padding-top: 10vh;
+    position: relative;
+}
+
+a {
+    color: inherit;
+}
+
+p {
+    margin-top: 0;
+}
+
+#top {
+    height: 40vh;
+    width: 100%;
+
+    object-fit: stretch;
+}
+
+.separator {
+    mask-image: url("/images/separator.svg");
+    mask-position: left bottom;
+    mask-repeat: repeat-x;
+    mask-size: contain;
+
+    height: var(--separator-height);
+    width: 100%;
+}
+
+.profile {
+    background-color: #46FFC8;
+    bottom: var(--profile-offset);
+}
+
+.footer {
+    --separator-height: 5vh;
+    background-color: var(--base);
+    bottom: calc(2 * var(--profile-offset));
+}
+
+.profile.content {
+    padding-bottom: var(--profile-offset);
+}
+
+.profile.content > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.profile.content > h1 {
+    font-style: normal;
+    font-weight: normal;
+    margin: auto 1rem;
+}
+
+#profile-img-container {
+    max-width: 320px;
+}
+
+#profile-img-container > img {
+    max-width: 100%;
+    width: 100%;
+    mask-image: url("/images/profile-mask.svg");
+}
+
+.contact-link {
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+}
