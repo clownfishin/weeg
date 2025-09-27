@@ -93,7 +93,7 @@ p {
 }
 
 .resizable-image {
-max-width: 40vh;
+    max-width: 4vh;
     display: block;
     margin: auto;
 }
