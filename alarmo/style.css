@@ -92,7 +92,7 @@ p {
     margin: auto 1rem;
 }
 
-.resizable-image {
+.resizable-image img {
     height: auto;
     width: auto;
     max-height: 100%;
