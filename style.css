@@ -92,6 +92,11 @@ p {
     margin: auto 1rem;
 }
 
+.resizable-image {
+    width: 100vw;
+    height: auto;
+}
+
 #profile-img-container {
     max-width: 320px;
 }
